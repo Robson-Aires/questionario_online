@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Boas-vindas ao repositório do projeto de Trivia!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![img](3b861286-cfd4-4743-83ce-4a4e398c23b1_rw_1920.gif)
 
-## Available Scripts
+Seja muito bem-vindo(a) ao repositório do Projeto Trivia Aqui você encontrará informações sobre o que foi desenvolvido neste projeto, bem como os principais aprendizados adquiridos durante o processo, para adquirir esse conhecimento, basta clicar na seta abaixo que o conteúdo se abrirá, boa leitura, espero que goste. 🙂
 
-In the project directory, you can run:
+<br/>
 
-### `npm start`
+<details>
+  <summary><strong>👨‍💻 O que eu desenvolvi</strong></summary><br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Eu desenvolvi um jogo de perguntas e respostas baseado no jogo **Trivia** _(tipo um show do milhão americano rs)_, utilizando React e Redux. Desenvolvemos em grupo as funcionalidades de acordo com as demandas definidas em um quadro Kanban. Para que pudéssemos vivenciar um cenário mais próximo do mercado de trabalho, utilizamos esse quadro no grupo. Foi de suma importância que o nosso grupo se organizasse utilizando o quadro para maior eficiência e para minimizar os conflitos que a união de vários códigos traria. A partir dessas demandas, concluímos uma aplicação onde a pessoa usuária poderá:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  - Logar no jogo e, se o email tiver cadastro no site [Gravatar](https://pt.gravatar.com/), ter sua foto associada ao perfil da pessoa usuária.
+  - Acessar a página referente ao jogo, onde se deverá escolher uma das respostas disponíveis para cada uma das perguntas apresentadas. A resposta deve ser marcada antes do contador de tempo chegar a zero, caso contrário a resposta deverá ser considerada errada.
+  - Ser redirecionada, após 5 perguntas respondidas, para a tela de score, onde o texto mostrado depende do número de acertos.
+  - Visualizar a página de ranking, se quiser, ao final de cada jogo.
+  - Configurar algumas opções para o jogo em uma tela de configuração acessível a partir do cabeçalho do app.
 
-### `npm test`
+</details>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br/>
 
-### `npm run build`
+<details>
+  <summary><strong>Habilidades Adquiridas após realizar este projeto</strong></summary><br />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Nesse projeto, eu fui capaz de:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  - Durante o desenvolvimento do Projeto Questionário Online, as seguintes tecnologias e ferramentas foram utilizadas:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Frontend:
+- React: Biblioteca JavaScript para a construção de interfaces de usuário.
+Backend:
+- Node.js: Ambiente de execução JavaScript para o desenvolvimento do backend.
+Sequelize: ORM para integração com o banco de dados MySQL.
+Banco de Dados:
+- MySQL: Sistema de gerenciamento de banco de dados relacional.
+Testes:
+- Jest: Framework de testes em JavaScript utilizado para garantir a qualidade e funcionalidade do código.
+Ferramentas de Desenvolvimento:
+- DBeaver: Ferramenta para gerenciar bancos de dados e realizar consultas.
+- Visual Studio Code: Editor de código com suporte a várias extensões para o desenvolvimento.
+- Postman: Plataforma para testar APIs e realizar chamadas HTTP.
+- GitHub: Repositório para versionamento de código e colaboração.
+</details>
 
-### `npm run eject`
+<details>
+      <summary><strong>Desafios Enfrentados ao realizar esse projeto</strong></summary><br />
+Durante o desenvolvimento do Projeto Questionário Online, alguns desafios se destacaram, especialmente relacionados à lógica de banco de dados e à integração entre o back-end e o front-end.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Dificuldades no Banco de Dados:
+Um dos maiores desafios foi definir e implementar a lógica no banco de dados, especialmente para lidar com a pontuação baseada nas alternativas de resposta. Trabalhar com a modelagem das tabelas e garantir que os relacionamentos estivessem corretos exigiu bastante planejamento e ajustes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Integração Back-End/Front-End:
+Outro ponto de dificuldade foi a integração do banco de dados com o back-end e a comunicação com o front-end. Houve desafios para garantir que os dados fossem corretamente carregados e exibidos na interface, e para sincronizar as ações do usuário com o armazenamento e a manipulação dos dados no banco.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Esses desafios foram superados com bastante tentativa e erro, além de pesquisa e ajustes no código.
+</details>
+<br />
+<img src="../../questionario_online/questionario/src/images/Captura de tela 2024-10-03 171824.png">
