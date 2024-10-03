@@ -58,4 +58,5 @@ Esses desafios foram superados com bastante tentativa e erro, além de pesquisa 
 </details>
 <br />
 
-<img src='./public/image/game.png' />
+![Captura de tela 2024-10-03 171824](https://github.com/user-attachments/assets/6491e682-0d8e-4c40-9c05-53c31cd93ce4)
+
