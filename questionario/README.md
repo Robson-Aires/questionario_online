@@ -1,21 +1,21 @@
-# Boas-vindas ao repositório do projeto de Trivia!
+# Boas-vindas ao repositório do projeto questionario online!
 
-![img](3b861286-cfd4-4743-83ce-4a4e398c23b1_rw_1920.gif)
 
-Seja muito bem-vindo(a) ao repositório do Projeto Trivia Aqui você encontrará informações sobre o que foi desenvolvido neste projeto, bem como os principais aprendizados adquiridos durante o processo, para adquirir esse conhecimento, basta clicar na seta abaixo que o conteúdo se abrirá, boa leitura, espero que goste. 🙂
+Seja muito bem-vindo(a) ao repositório do Projeto questionario online Aqui você encontrará informações sobre o que foi desenvolvido neste projeto, bem como os principais aprendizados adquiridos durante o processo, para adquirir esse conhecimento, basta clicar na seta abaixo que o conteúdo se abrirá, boa leitura, espero que goste. 🙂
 
 <br/>
 
 <details>
   <summary><strong>👨‍💻 O que eu desenvolvi</strong></summary><br />
 
-Eu desenvolvi um jogo de perguntas e respostas baseado no jogo **Trivia** _(tipo um show do milhão americano rs)_, utilizando React e Redux. Desenvolvemos em grupo as funcionalidades de acordo com as demandas definidas em um quadro Kanban. Para que pudéssemos vivenciar um cenário mais próximo do mercado de trabalho, utilizamos esse quadro no grupo. Foi de suma importância que o nosso grupo se organizasse utilizando o quadro para maior eficiência e para minimizar os conflitos que a união de vários códigos traria. A partir dessas demandas, concluímos uma aplicação onde a pessoa usuária poderá:
+Este projeto é um sistema de questionário online que permite aos usuários interagirem com diferentes formulários de maneira simples e eficiente. A aplicação foi desenvolvida utilizando React no frontend e Sequelize para a comunicação com o banco de dados no backend.
 
-  - Logar no jogo e, se o email tiver cadastro no site [Gravatar](https://pt.gravatar.com/), ter sua foto associada ao perfil da pessoa usuária.
-  - Acessar a página referente ao jogo, onde se deverá escolher uma das respostas disponíveis para cada uma das perguntas apresentadas. A resposta deve ser marcada antes do contador de tempo chegar a zero, caso contrário a resposta deverá ser considerada errada.
-  - Ser redirecionada, após 5 perguntas respondidas, para a tela de score, onde o texto mostrado depende do número de acertos.
-  - Visualizar a página de ranking, se quiser, ao final de cada jogo.
-  - Configurar algumas opções para o jogo em uma tela de configuração acessível a partir do cabeçalho do app.
+Funcionalidades:
+- Cadastro de Usuário: O usuário insere seu nome e e-mail antes de iniciar o questionário.
+- Seleção de Formulário: O usuário pode escolher um formulário dentre os disponíveis para responder.
+- Perguntas e Alternativas: Cada formulário apresenta um conjunto de perguntas, com alternativas de resposta já cadastradas.
+- Sistema de Pontuação: Cada alternativa de resposta possui um peso específico. No final do questionário, o sistema contabiliza a pontuação com base nas respostas selecionadas pelo usuário.
+- Este projeto tem como objetivo proporcionar uma interface amigável para a coleta e avaliação de respostas em formulários online, permitindo uma análise rápida das pontuações com base nas alternativas escolhidas.
 
 </details>
 
