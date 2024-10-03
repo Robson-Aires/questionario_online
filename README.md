@@ -58,4 +58,4 @@ Esses desafios foram superados com bastante tentativa e erro, além de pesquisa 
 </details>
 <br />
 
-<img src='./image/game.png' />
+<img src='./public/image/game.png' />
