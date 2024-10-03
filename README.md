@@ -58,6 +58,4 @@ Esses desafios foram superados com bastante tentativa e erro, além de pesquisa 
 </details>
 <br />
 
-<img src="image/game.png">
-
-<img src="../../questionario_online/questionario/src/images/Captura de tela 2024-10-03 171824.png">
+<img src='./image/game.png' />
